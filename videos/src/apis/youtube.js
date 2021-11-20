@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-
 const KEY = 'AIzaSyATFg5Fm7fkIFna0mcDz3rK_dPwqZ825hc';
 
 export default axios.create({
@@ -9,6 +8,6 @@ export default axios.create({
         part: 'snippit',
         type: 'video',
         maxResults: 5,
-        key: KEY
-    }
+        key: KEY,
+    },
 })
